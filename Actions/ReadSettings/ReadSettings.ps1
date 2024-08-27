@@ -46,7 +46,7 @@ if ($settings.versioningstrategy -ne -1) {
             $settings.appRevision = $settings.appRevision
         }        
         default {
-            OutputError -message "Unknown version strategy $versionStrategy"
+            OutputError -message "Unknown version strategy $versioningStrategy"
             exit
         }
     }
